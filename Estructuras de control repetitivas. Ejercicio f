@@ -1,6 +1,7 @@
 //Estructuras de control repetitivas.Ejercicio f
 #include <iostream>
 #include "conio.h"
+
 using namespace std;
 
 int main()
@@ -14,7 +15,7 @@ int main()
 	//LOGICA Y SALIDA
 	cout << "Ingrese el valor de n:" << endl;
 	cin >> n;
-	cout << "Ingrese el valor de a:" << endl;
+	cout << "Ingrese el valor de i:" << endl;
 	cin >> i;
 
 	if (n > 0 && i > 0)
@@ -28,8 +29,8 @@ int main()
 
 		cout << "La suma es: " << suma << endl;
 	}
-	else
-		cout << "Ingrese nuevamente los valores" << endl;
+
 
 	_getch();
 }
+
