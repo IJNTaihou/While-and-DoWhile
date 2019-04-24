@@ -1,0 +1,32 @@
+//Estructuras de control repetitivas.Ejercicio b
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+int main()
+{
+	//ENTRADA
+	int n;
+	int i = 1;
+	int suma = 0;
+
+	//LOGICA Y SALIDA
+	cout << "Ingrese el valor de n:" << endl;
+	cin >> n;
+
+	if (n > 0)
+	{
+		while (i <= n)
+		{
+			suma = suma + i * i;
+			i++;
+		}
+
+		cout << "La suma es: " << suma << endl;
+	}
+	else
+		cout << "Ingrese nuevamente el valor de n" << endl;
+
+	_getch();
+}
