@@ -9,7 +9,7 @@ int main()
 	//ENTRADA
 	int n;
 	float i;
-	float b = 1, c = 1;
+	float x = 1, y = 1;
 	float suma = 0;
 
 	//LOGICA Y SALIDA
@@ -20,11 +20,11 @@ int main()
 
 	if (n > 0 && i > 0)
 	{
-		while (c <= n)
+		while (y <= n)
 		{
-			suma = suma + 1 / (i * b);
-			b = 3 * c;
-			c++;
+			suma = suma + 1 / (i * x);
+			x = 3 * y;
+			y++;
 		}
 
 		cout << "La suma es: " << suma << endl;
