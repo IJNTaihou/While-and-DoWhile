@@ -15,7 +15,7 @@ int main()
 	//LOGICA Y SALIDA
 	cout << "Ingrese el valor de n:" << endl;
 	cin >> n;
-	cout << "Ingrese el valor de a:" << endl;
+	cout << "Ingrese el valor de x:" << endl;
 	cin >> x;
 
 	if (n > 0 && x > 0)
